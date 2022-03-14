@@ -11,13 +11,17 @@
 ## Heart
 
 ```
+## imports
 import time
 import os
+
+## Sets base color
 
 Color34 = "\u001b[34m"
 Color37 = "\u001b[37m"
 
 
+## Prints heart animation
 
 def heart1():
   print("_____8888888888____________________")
@@ -146,7 +150,7 @@ def heart5():
   print("\u001b[34m -------------------------------------------- \u001b[37m")
 
 
-
+## Timing between each print
 
 os.system("clear")
 time.sleep(.1)
@@ -167,8 +171,12 @@ time.sleep(.5)
 os.system("clear")
 ```
 
+
+
 ### Tree Thing
 ```
+## asks height and character (symbol) then prints tree
+
 def submain():
     top = '💀'
     top_center = top.center(20, " ")
@@ -181,8 +189,12 @@ def submain():
     print('        ||||')
 ```
 
+
+
 ### Swap
 ```
+## swaps 2 numbers around
+
 def swap(age1, age2):
     temp = age1
     age1 = age2
@@ -196,6 +208,8 @@ swap(number1, number2)
 
 ### Keypad
 ```
+## Creation of menu keypad for inputs.
+
 def keypad():
     print()
     numbers = ['1 2 3','4 5 6','7 8 9','  0  ']
