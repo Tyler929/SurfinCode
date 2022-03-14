@@ -1,11 +1,11 @@
-plugins: 
-- jekyll-relative-links
-relative_links: 
-enabled: true
-collections: true
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 include:
-- README.md
-- tyler.md
-- project.md
-- team_doc.md
-- test.md
+  - README.md
+  - tyler.md
+  - test.md
+  - project.md
+  - team_doc.md
