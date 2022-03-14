@@ -1,4 +1,4 @@
-{% include index.html %}
+{% include navigation.html %}
 
 ## Tyler's Create Task Outline
 
