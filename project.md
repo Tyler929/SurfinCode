@@ -217,3 +217,32 @@ def keypad():
     print(key_pad)
 ```
 
+### Fibonacci 
+```
+def fibo(a):
+    x = 0
+    y = 1
+    if a == 1:
+        print(x) 
+    else:
+        print(x)
+        print(y)
+    for i in range(2,a):
+        z = x + y
+        x = y
+        y = z
+        print(x+y)
+fibo(21)
+```
+
+### Factorial
+```
+def fact(b):
+    a = 1
+    for i in range(1,b+1):
+        a = a * i
+    return a
+b = 3
+number = fact(b)
+print(number)
+```
