@@ -1,7 +1,7 @@
 {% include navigation.html %}
 
 # TPT 
-| **5.1**      | **Notes** |
+| **5.1**    | **Notes** |
 | ---------- | ---------- |
 | | - Wii came before the iPhone and they both have accelerometers in them:  |
 | | - - Accelerometers |
