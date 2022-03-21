@@ -62,39 +62,39 @@ Reach out to people you might see having trouble in or out of class, having some
 
 Red tape blocks digital empowerment. Poor families are unable to have the availability of a great selection of digital equipment, compared to the wealthier people who can use anything at their own discretion. At Del Norte we are gifted, we have access to all this computer technology we don’t use, although some lack digital empowerment, putting many at a disadvantage.
 
-**5.1**   **Notes** 
+
 ## 5.3
 ### Notes
- Computing Bias
-      Netflix
-      Explicit Data
-      Thumbs
-      Name, Address, etc.
-      Implicit Data
-      When you watch
-      What you binge(d)
-      Style of show frequently selected
-  Bias
-      Netflix exclusive features are ahead of most
-      Subscriptions
-  Hypotherical Loan Compay
-    Creating software to assist loan officers
-    Find trends in successful loans
-Reject those who don’t fit their trends:
-   Age
-   Gender
-      Race/ethnicity
-  Biases can be embedded at all levels of software development
-    All software can be biased (intentionally or unintentionally)
-    Casual vs Sweaty
-        Youtube kids
-        Facebook vs Instagram vs Snapchat/TikTok
-        WeChat/KakaoTalk
-   Questions to ask about bias:
-        Enhancing or intentionally excluding?
-        Intentionally hateful/harmful?
-        Receiving feedback from a wide variety of people?
-        Google home/amazon echo
+- Computing Bias
+-     Netflix
+-     Explicit Data
+-     Thumbs
+-     Name, Address, etc.
+-     Implicit Data
+-     When you watch
+-     What you binge(d)
+-     Style of show frequently selected
+- Bias
+-    Netflix exclusive features are ahead of most
+-      Subscriptions
+- Hypotherical Loan Compay
+-   Creating software to assist loan officers
+-   Find trends in successful loans
+- Reject those who don’t fit their trends:
+-  Age
+-  Gender
+-     Race/ethnicity
+- Biases can be embedded at all levels of software development
+-   All software can be biased (intentionally or unintentionally)
+-   Casual vs Sweaty
+-       Youtube kids
+-       Facebook vs Instagram vs Snapchat/TikTok
+-       WeChat/KakaoTalk
+-  Questions to ask about bias:
+-       Enhancing or intentionally excluding?
+-       Intentionally hateful/harmful?
+-       Receiving feedback from a wide variety of people?
+-       Google home/amazon echo
 
 ## **5.3 Questions**
 
@@ -128,20 +128,20 @@ Ask and test on a wider crowd, more inputs produce better final results which is
 
 
 ## **5.4**   **Notes**
-Notes
-Crowdsourcing: where individuals obtain goods/information from a service of a large amount of people
-  Public Data Sets
-      Kaggle
-      Google Public Datasets
-      Data.gov
-      Your local government
-    Distributed Computing
-      Donate spare computer power to help calculations
-    Innovations made possible
-      Spotify
-         Collaborative playlists
-         Algorithm 
-         Meta-data write in
+- Notes
+-   Crowdsourcing: where individuals obtain goods/information from a service of a large amount of people
+-   Public Data Sets
+-     Kaggle
+-     Google Public Datasets
+-     Data.gov
+-     Your local government
+-   Distributed Computing
+-     Donate spare computer power to help calculations
+-   Innovations made possible
+-     Spotify
+-        Collaborative playlists
+-        Algorithm 
+-        Meta-data write in
 
 ## **5.4 Questions**
 **CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?**
