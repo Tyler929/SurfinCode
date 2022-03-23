@@ -1,3 +1,4 @@
+import loops
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
@@ -16,8 +17,9 @@ main_menu = [
     ["Keypad", "python_challenges/keypad.py"],
     ["Swap", "python_challenges/swap.py"],
     ["Christmas Tree", "python_challenges/submain.py"],
-    ["Fibo", "Lists and Loops/Fib.py"],
-    ["Fact", "Lists and Loops/fact.py"]
+    ["Fibonacci", "Lists and Loops/Fib.py"],
+    ["Factorial", "Lists and Loops/fact.py"],
+    ["Loops", loops.tester() ]
 ]
 
 # Submenu list of [Prompt, Action]
@@ -25,9 +27,8 @@ main_menu = [
 sub_menu = [
   ["Heart", "python_challenges/heart.py"],
   ["Ship", "python_challenges/ship.py"],
-  ["Loop", "Lists and Loops/mortensen.py"]
-]
 
+]
 #patterns_sub_menu = [
  #   ["Patterns", "patterns.py"],
 #    ["PreFuncy", "prefuncy.py"],
@@ -167,3 +168,4 @@ if __name__ == "__main__":
     #            print('Invalid option. Please enter a number between 1 and 4.')
    #     except ValueError:
     #        print('Invalid input. Please enter an integer input.') #
+
