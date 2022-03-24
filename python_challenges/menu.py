@@ -1,4 +1,4 @@
-# from python_challenges import loops
+from python_challenges.loops import tester
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
@@ -19,7 +19,7 @@ main_menu = [
     ["Christmas Tree", "python_challenges/submain.py"],
     ["Fibonacci", "LoopsLists/fibo.py"],
     ["Factorial", "LoopsLists/fact.py"],
-    ["Loops", "python_challenges/loops.py" ]
+    ["Loops", tester],
 ]
 
 # Submenu list of [Prompt, Action]
