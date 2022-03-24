@@ -33,13 +33,6 @@ def print_data(n):
 ## hack 2b: def while_loop(0)
 ## hack 2c : def recursive_loop(0)
 
-def tester():
-    print("For loop")
-    for_loop()
-    print("While loop")
-    while_loop(0)  # requires initial index to start while
-    print("Recursive loop")
-    recursive_loop(0)  # requires initial index to start recursion
 
 # for loop iterates on length of InfoDb
 def for_loop():
@@ -60,5 +53,12 @@ def recursive_loop(n):
         recursive_loop(n + 1)
     return # exit condition
 
+def tester():
+    print("For loop")
+    for_loop()
+    print("While loop")
+    while_loop(0)  # requires initial index to start while
+    print("Recursive loop")
+    recursive_loop(0)  # requires initial index to start recursion
 
 # Hack 3: Fibonacci.  Write a recursive program to create a fibonacci sequence including error handling(with try/except) for invalid input
