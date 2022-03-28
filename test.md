@@ -193,11 +193,13 @@ Our team decided to chose Creative Commons Zero v1.0 Universal due to it's dedic
 
 **Describe PII you have seen on project in CompSci Principles.**
 
-PII is Personally Identifiable Information. I have seen PII on projects its CompSci Principles in passwords, names, emails, and phone numbers in the CRUD database. 
+PII is Personally Identifiable Information. I've seen this multiple times throughout CSP including the CRUD database, containing names, passwords, and emails.
 
 **What are your feelings about PII and your exposure?**
 
 I feel that PII is important for identification and personal use, but I feel like it can sometimes be dangerous to have your PII available to other users on the internet. For example, a credit card would be bad PII for the public to see.
+
+
 
 **Describe good and bad passwords? What is another step that is used to assist in authentication.**
 
