@@ -1,6 +1,7 @@
 from LoopsListsW2.loops import tester
 from ClassyFunctionsW3 import factclass
 from ClassyFunctionsW3 import lcmclass
+# from ClassyFunctionsW3 import lcm2
 
 # menuy.py - function style menu
 # Imports typically listed at top
@@ -31,7 +32,9 @@ sub_menu2 = [
   ["Fibonacci", "LoopsListsW2/fibo.py"],
   ["Factorial", "ClassyFunctionsW3/fact.py"],
   ["OOP Factorial", factclass.run_factorial],
-  ["OOP Lcm", lcmclass.lcm_run]
+  ["OOP Lcm", lcmclass.lcm_run],
+ # ["Imperative Addition", lcm2.addition],
+  ["Imperative Math", "ClassyFunctionsW3/lcm2.py"],
 ]
 
 

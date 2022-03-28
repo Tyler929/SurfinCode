@@ -5,5 +5,6 @@ def fact(b):
     return a
 b = 5
 number = fact(b)
+print("="*30)
 print("The Factorial Of 5 Is: ", number)
-
+print("="*30)
