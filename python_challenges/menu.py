@@ -1,4 +1,7 @@
-from python_challenges.loops import tester
+from LoopsListsW2.loops import tester
+from ClassyFunctionsW3 import factclass
+from ClassyFunctionsW3 import lcmclass
+
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
@@ -14,21 +17,30 @@ from python_challenges.loops import tester
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Keypad", "python_challenges/keypad.py"],
-    ["Swap", "python_challenges/swap.py"],
-    ["Christmas Tree", "python_challenges/submain.py"],
-    ["Fibonacci", "LoopsLists/fibo.py"],
-    ["Factorial", "LoopsLists/fact.py"],
-    ["Loops", tester],
+  
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 sub_menu = [
-  ["Heart", "python_challenges/heart.py"],
-  ["Ship", "python_challenges/ship.py"],
-
+  ["Christmas Tree", "python_challenges/submain.py"],
+  ["Heart", "python_challenges/rad.py"],
 ]
+
+sub_menu2 = [
+  ["Fibonacci", "LoopsListsW2/fibo.py"],
+  ["Factorial", "ClassyFunctionsW3/fact.py"],
+  ["OOP Factorial", factclass.run_factorial],
+  ["OOP Lcm", lcmclass.lcm_run]
+]
+
+
+sub_menu3 = [
+  ["Keypad", "python_challenges/keypad.py"],
+  ["Swap", "python_challenges/swap.py"],
+  ["Loops", tester],
+]
+
 #patterns_sub_menu = [
  #   ["Patterns", "patterns.py"],
 #    ["PreFuncy", "prefuncy.py"],
@@ -46,17 +58,26 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Animations", submenu])
-  #  menu_list.append(["Patterns", patterns_submenu])
+    menu_list.append(["Animations", submenu1])
+    menu_list.append(["Math Calculation Functions", submenu2])
+    menu_list.append(["Playful Functions", submenu3])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
-    title = "Function Submenu" + banner
+def submenu1():
+    title = "Animations" + banner
     buildMenu(title, sub_menu)
 
+def submenu2():
+    title = "Math Calculation Fun" + banner
+    buildMenu(title, sub_menu2)
+
+def submenu3():
+    title = "Playful Functions" + banner
+    buildMenu(title, sub_menu3)
+  
 #def patterns_submenu():
   #  title = "Function Submenu" + banner
   #  buildMenu(title, patterns_sub_menu)

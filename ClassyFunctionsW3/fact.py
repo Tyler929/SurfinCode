@@ -3,6 +3,7 @@ def fact(b):
     for i in range(1,b+1):
         a = a * i
     return a
-b = 3
+b = 5
 number = fact(b)
-print(number)
+print("The Factorial Of 5 Is: ", number)
+
