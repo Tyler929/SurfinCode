@@ -202,11 +202,13 @@ I believe PII is essential for personal use and identification, although it is v
 
 **Describe good and bad passwords? What is another step that is used to assist in authentication.**
 
-Good passwords have uppercase, lowercase, symbol, and number characters. Bad passwords have only one form of characters or have something that identifies you in them; for example, a pet or your mom's name. Another step that is used to assist in authentication is multi factor authentication (using another device to verify your identity) or biometrics.
+Good passwords vary in characters and synbols while bad passwords are very simple, an exmaple of a good password includes D*S&$fks$!!w2 while a bad one is 123. Also, one factor used in the authentication system is multi factor authentication which verifies you via a remote device or biometrics.
 
 **Try to describe Symmetric and Asymmetric encryption.**
 
-Symmetric encrytion happens when there's only one key, which is secret, and this key is used to decrypt and encrypt electronic data/information. Asymmetric encryption/cryptography happens when there's a pair of related keys, including one private and one public. These are used to decrypt and encrypt information to protect it from unauthorized use/access. 
+Symmetric encrytion happens when there's only one key, which is secret, and this key is used to decrypt and encrypt electronic data/information. Asymmetric encryption/cryptography happens when there's a pair of related keys, including one private and one public. These are used to decrypt and encrypt information to protect it from unauthorized use/access.
+
+
 
 **Provide and example of encryption we used in deployment.**
 
