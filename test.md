@@ -170,7 +170,7 @@ Yes, of course the more ideas, the better final result. More people provide stro
 - Digital divide: unequal distribution of access to technology
 
 
-## **5.4 Questions**
+## **5.5 Questions**
 
 **When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.**
 
@@ -178,7 +178,7 @@ Notes located above
 
 **Make a license for your personal and Team project. Document license you picked and why.**
 
-Our team decided to chose Creative Commons Zero v1.0 Universal due to it's dedication toward the world-wide public domain. For my personal project, I chose the Open Source MIT License because I liked that it allows using code freely and making/distributing closed source versions
+Our team decided to chose Creative Commons Zero v1.0 Universal due to it's dedication toward the world-wide public domain. For my personal project, I chose the Open Source MIT License because I liked that it allows using code freely and making/distributing closed source versions (Crediting the source)
 
 
 ## **5.6 Notes**
@@ -197,9 +197,8 @@ PII is Personally Identifiable Information. I've seen this multiple times throug
 
 **What are your feelings about PII and your exposure?**
 
-I feel that PII is important for identification and personal use, but I feel like it can sometimes be dangerous to have your PII available to other users on the internet. For example, a credit card would be bad PII for the public to see.
 
-
+I believe PII is essential for personal use and identification, although it is very useful, there are many risks including people(hackers) obtaning private personal information. Debit and credit cards are a perfect example
 
 **Describe good and bad passwords? What is another step that is used to assist in authentication.**
 
