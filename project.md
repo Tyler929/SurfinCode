@@ -2,7 +2,7 @@
 
 ## Python Projects and Challenges
 
-- [Python Files](ttps://github.com/Tyler929/tyler929.github.io)
+- [Python Files](https://github.com/Tyler929/tyler929.github.io)
 
 - [Replit](https://replit.com/@Tyler929/tyler929githubio#.replit)
 
