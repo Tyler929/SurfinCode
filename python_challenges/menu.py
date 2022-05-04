@@ -35,6 +35,7 @@ sub_menu2 = [
   ["OOP Lcm", lcmclass.lcm_run],
  # ["Imperative Addition", lcm2.addition],
   ["Imperative Math", "ClassyFunctionsW3/lcm2.py"],
+  ["Multiplication Table", "PBLCoders/multi.py"],
 ]
 
 
@@ -42,6 +43,8 @@ sub_menu3 = [
   ["Keypad", "python_challenges/keypad.py"],
   ["Swap", "python_challenges/swap.py"],
   ["Loops", tester],
+  ["Story", "PBLCoders/convert.py"],
+  ["Quiz", "PBLCoders/8ball.py"]
 ]
 
 #patterns_sub_menu = [
