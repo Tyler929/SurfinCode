@@ -8,6 +8,79 @@
 
 ---
 
+### Python Quiz
+```
+# asks if ready to play yes = procced
+print('Welcome to Python Quiz')
+answer=input('Are you ready to play the Quiz ? (yes/no) :')
+score=0
+total_questions=3
+
+# beginning of quiz question 1
+if answer.lower()=='yes':
+    answer=input('Question 1: What is Tyler Hickmans favorite programming language?')
+    if answer.lower()=='python':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+ 
+ # question 2
+    answer=input('Question 2: What is Tyler Hickman favorite sport? ')
+    if answer.lower()=='surfing':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+ # question 3
+    answer=input('Question 3: What is the name of the most popular crypto currency?')
+    if answer.lower()=='bitcoin':
+        score += 1
+        print('correct')
+    else:
+        print('Wrong Answer :(')
+# end of quiz + final score with a little goodbye ;)
+print('Thanks for Playing this small quiz game, you got',score,"questions correctly!")
+mark=(score/total_questions)*100
+print('Marks obtained:',mark)
+print('CYA!')
+```
+
+### Tyler's Story 
+```
+# asks for name and gender
+def storyStart(name, gender):
+    pronoun = ''
+    if gender == 'm':
+        pronoun = 'He'
+        pronoun1 = "his"
+    elif gender == 'f':
+        pronoun = 'She'
+
+# prints variable arguments 
+    print('One stormy day, ' + name + ' was attempting to mine bitcoin.')
+    print(pronoun + ' was desperate to mine, but couldn\'t, the malware overtook ' + pronoun1 + ' computer!' )
+
+userName = input('What is your name? ')
+gender = input('Are you male or female (type m or f)? ')
+
+# program
+storyStart(userName, gender)
+```
+
+### Multiplication Table
+```
+# variable
+num = 12
+
+# input from user
+# num = int(input("Display multiplication table of(?) "))
+# 10 times from i = 1 to 10
+for i in range(1, 11):
+   print(num, 'x', i, '=', num*i)
+```
+
+
 ### OOP Factorial
 ```
 class factorial:
