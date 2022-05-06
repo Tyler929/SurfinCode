@@ -44,7 +44,8 @@ sub_menu3 = [
   ["Swap", "python_challenges/swap.py"],
   ["Loops", tester],
   ["Story", "PBLCoders/convert.py"],
-  ["Quiz", "PBLCoders/8ball.py"]
+  ["Quiz", "PBLCoders/8ball.py"],
+  ["Password", "PBLCoders/password.py"],
 ]
 
 #patterns_sub_menu = [
